@@ -232,12 +232,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Responsif untuk HP */
 @media (max-width: 768px) {
-    .hero-container {
-        flex-direction: column-reverse; /* Foto di atas teks saat di HP */
-        text-align: center;
+    .about-title {
+        font-size: 1.75rem; 
+        margin-bottom: 1.5rem;
     }
-    .hero-content {
-        text-align: center;
+
+    .about-content p {
+        font-size: 0.875rem;
+        line-height: 1.6;
+        text-align: left; 
+        padding: 0 5px; 
     }
 }
 /* Hero Section */
@@ -1067,4 +1071,5 @@ h1, h2, h3, h4, h5, h6 {
     .section-header {
         text-align: left;
     }
+
 }
