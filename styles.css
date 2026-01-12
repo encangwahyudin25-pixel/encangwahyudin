@@ -232,16 +232,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Responsif untuk HP */
 @media (max-width: 768px) {
-    .about-title {
-        font-size: 1.75rem; 
-        margin-bottom: 1.5rem;
+    .about-container {
+        width: 100%;
+        padding: 2rem 0.8rem;
     }
-
+    .about-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
     .about-content p {
-        font-size: 0.875rem;
-        line-height: 1.6;
-        text-align: left; 
-        padding: 0 5px; 
+        font-size: 0.8rem; 
+        line-height: 1.4;   
+        text-align: center;  
+        color: var(--color-gray-400);
+        margin-bottom: 0.8rem;
+        max-width: 100%;   
+        letter-spacing: -0.01em; 
     }
 }
 /* Hero Section */
@@ -1073,3 +1079,4 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 }
+
